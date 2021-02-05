@@ -3,11 +3,12 @@ package com.mindtree.HotelApp.service.impl;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.mindtree.HotelApp.dao.HotelDao;
 import com.mindtree.HotelApp.entity.Hotel;
 import com.mindtree.HotelApp.service.HotelService;
-
+@Service 
 public class HotelServiceImpl implements HotelService {
 	@Autowired
 	HotelDao hoteldao;
